@@ -1,0 +1,22 @@
+{
+  "name": "testcafe-testing",
+  "version": "1.0.0",
+  "description": "Automated testing with Testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "testcafe chrome ./tests -s takeOnFails=true",
+    "test:chrome:mobile": "testcafe chrome:emulation:device=samsung galaxy s21 ./tests -s takeOnFails=true",
+    "test:safari": "testcafe safari ./tests -s takeOnFails=true"
+  },
+  "keywords": [
+    "TestCafe",
+    "Testing",
+    "Automation"
+  ],
+  "author": "Juraj",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.5.1",
+    "testcafe": "^1.18.1"
+  }
+}
